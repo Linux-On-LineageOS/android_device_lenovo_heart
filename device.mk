@@ -61,3 +61,4 @@ PRODUCT_SOONG_NAMESPACES += \
 # Touch
 PRODUCT_PACKAGES += \
     vendor.lineage.touch-service.lenovo_heart
+$(call inherit-product, vendor/lindroid/lindroid.mk)
